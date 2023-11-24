@@ -1,2 +1,3 @@
-# Avionics
-Repository for Code related to QubeSat Avionics
+# pulse-firmware
+
+This is the central repository for PULSE-A firmware development.
