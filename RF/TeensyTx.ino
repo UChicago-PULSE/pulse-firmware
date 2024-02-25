@@ -45,7 +45,7 @@ void setup()
   pinMode(RFM69_RST, OUTPUT);
   digitalWrite(RFM69_RST, LOW);
 
-  Serial.println("Feather RFM69 TX Test!");
+  Serial.println("Teensy 4.1 RF69 TX Test!");
   Serial.println();
 
   // manual reset
