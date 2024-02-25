@@ -101,6 +101,7 @@ void loop() {
 
   // char radiopacket[20] = "Hello World #";
     // itoa(packetnum++, radiopacket+13, 10);
+//60 byte limit per block, 60 chars
   char radiopacket[20];
   sprintf(radiopacket, "%f", event.orientation.x);
 
