@@ -18,7 +18,7 @@
 
 //For Teensy 3.x and T4.x the following format is required to operate correctly
 //This is a limitation of the RadioHead radio drivers
-#define RFM69_RST     3
+#define RFM69_RST     22
 #define RFM69_CS      10
 #define RFM69_INT     digitalPinToInterrupt(2)
 //----- END TEENSY CONFIG

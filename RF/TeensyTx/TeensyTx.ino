@@ -22,7 +22,7 @@
 
 //For Teensy 3.x and T4.x the following format is required to operate correctly
 //This is a limitation of the RadioHead radio drivers
-#define RFM69_RST     3
+#define RFM69_RST     22
 #define RFM69_CS      10
 #define RFM69_INT     digitalPinToInterrupt(2)
 
@@ -100,7 +100,7 @@ void loop() {
   bno.getEvent(&event);
 
   // char radiopacket[20] = "Hello World #";
-    // itoa(packetnum++, radiopacket+13, 10);
+  //   itoa(packetnum++, radiopacket+13, 10);
   char radiopacket[20];
   sprintf(radiopacket, "%f", event.orientation.x);
 
