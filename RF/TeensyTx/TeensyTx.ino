@@ -100,7 +100,12 @@ void loop() {
   bno.getEvent(&event);
 
   // char radiopacket[20] = "Hello World #";
+<<<<<<< HEAD
   //   itoa(packetnum++, radiopacket+13, 10);
+=======
+    // itoa(packetnum++, radiopacket+13, 10);
+//60 byte limit per block, 60 chars
+>>>>>>> 4dfc7cb93a71a6f73312435b11d469d45f1a2365
   char radiopacket[20];
   sprintf(radiopacket, "%f", event.orientation.x);
 
